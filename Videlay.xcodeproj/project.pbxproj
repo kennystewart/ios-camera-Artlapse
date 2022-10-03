@@ -88,7 +88,6 @@
 				34C00BA345336B34FEC7A538 /* Pods-Videlay.debug.xcconfig */,
 				75E5388CAA080E6ED2511648 /* Pods-Videlay.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -360,6 +359,8 @@
 				DEVELOPMENT_TEAM = 59SVXWFZ98;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Videlay/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera usage to access camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow microphone usage to allow video recording";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -389,6 +390,8 @@
 				DEVELOPMENT_TEAM = 59SVXWFZ98;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Videlay/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera usage to access camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow microphone usage to allow video recording";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
