@@ -1,0 +1,16 @@
+PODS:
+  - NextLevel (0.16.5)
+
+DEPENDENCIES:
+  - NextLevel (~> 0.16.3)
+
+SPEC REPOS:
+  trunk:
+    - NextLevel
+
+SPEC CHECKSUMS:
+  NextLevel: b9b9b65c7c6dc83f109b2c67aa362593108335a5
+
+PODFILE CHECKSUM: d64e676b5cb94f7d7f1e7f3e67d0a2d750f0bc8f
+
+COCOAPODS: 1.11.3
