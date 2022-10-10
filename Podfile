@@ -7,6 +7,7 @@ target 'Videlay' do
 
   # Pods for Videlay
 pod "NextLevel", "~> 0.16.3"
-
+pod 'Crisp'
+pod 'CircleProgressView', '~> 1.0'
 
 end

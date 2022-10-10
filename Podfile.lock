@@ -1,16 +1,24 @@
 PODS:
+  - CircleProgressView (1.2.0)
+  - Crisp (1.6.4)
   - NextLevel (0.16.5)
 
 DEPENDENCIES:
+  - CircleProgressView (~> 1.0)
+  - Crisp
   - NextLevel (~> 0.16.3)
 
 SPEC REPOS:
   trunk:
+    - CircleProgressView
+    - Crisp
     - NextLevel
 
 SPEC CHECKSUMS:
+  CircleProgressView: 6b5b091d59dc5e5d2fda84e637a40498cdc39937
+  Crisp: 551142bfba689e45b76bcbf13e929888fc5cf402
   NextLevel: b9b9b65c7c6dc83f109b2c67aa362593108335a5
 
-PODFILE CHECKSUM: d64e676b5cb94f7d7f1e7f3e67d0a2d750f0bc8f
+PODFILE CHECKSUM: 0ecde9d33cc2ad6bf82fb748693ee1dbfbdcb36b
 
 COCOAPODS: 1.11.3

@@ -7,16 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB4B25828F3BD700036CFFF /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B24828F3BD700036CFFF /* UIScrollView+.swift */; };
+		0EB4B25928F3BD700036CFFF /* UUID+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B24928F3BD700036CFFF /* UUID+.swift */; };
+		0EB4B25A28F3BD700036CFFF /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B24A28F3BD700036CFFF /* Date+.swift */; };
+		0EB4B25B28F3BD700036CFFF /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B24B28F3BD700036CFFF /* UILabel+.swift */; };
+		0EB4B25C28F3BD700036CFFF /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B24C28F3BD700036CFFF /* UIStackView+.swift */; };
+		0EB4B25D28F3BD700036CFFF /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B24D28F3BD700036CFFF /* UIButton+.swift */; };
+		0EB4B25E28F3BD700036CFFF /* Duration+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B24E28F3BD700036CFFF /* Duration+.swift */; };
+		0EB4B25F28F3BD700036CFFF /* TimeInterval+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B24F28F3BD700036CFFF /* TimeInterval+.swift */; };
+		0EB4B26028F3BD700036CFFF /* FileManager+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B25028F3BD700036CFFF /* FileManager+.swift */; };
+		0EB4B26128F3BD700036CFFF /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B25128F3BD700036CFFF /* UIImage+.swift */; };
+		0EB4B26228F3BD700036CFFF /* CGAffineTransform+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B25228F3BD700036CFFF /* CGAffineTransform+.swift */; };
+		0EB4B26328F3BD700036CFFF /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B25328F3BD700036CFFF /* String+.swift */; };
+		0EB4B26428F3BD700036CFFF /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B25428F3BD700036CFFF /* UIFont+.swift */; };
+		0EB4B26528F3BD700036CFFF /* AVAsset+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B25528F3BD700036CFFF /* AVAsset+.swift */; };
+		0EB4B26628F3BD700036CFFF /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B25628F3BD700036CFFF /* UIView+.swift */; };
+		0EB4B26728F3BD700036CFFF /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4B25728F3BD700036CFFF /* UIViewController+.swift */; };
+		0EBFA9E228F3E50D007625B4 /* ClockOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBFA9E128F3E50D007625B4 /* ClockOverlayView.swift */; };
+		0EBFA9E428F3E612007625B4 /* ClockRunloop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBFA9E328F3E612007625B4 /* ClockRunloop.swift */; };
 		0EC019ED28EA5EBB000DD2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC019EC28EA5EBB000DD2C1 /* AppDelegate.swift */; };
 		0EC019EF28EA5EBB000DD2C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC019EE28EA5EBB000DD2C1 /* SceneDelegate.swift */; };
 		0EC019F128EA5EBB000DD2C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC019F028EA5EBB000DD2C1 /* ViewController.swift */; };
 		0EC019F428EA5EBB000DD2C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC019F228EA5EBB000DD2C1 /* Main.storyboard */; };
 		0EC019F628EA5EBD000DD2C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC019F528EA5EBD000DD2C1 /* Assets.xcassets */; };
 		0EC019F928EA5EBD000DD2C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC019F728EA5EBD000DD2C1 /* LaunchScreen.storyboard */; };
+		0EEADD8F28F3BE5A004F7BE5 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEADD8E28F3BE5A004F7BE5 /* RecordButton.swift */; };
+		0EEADD9128F3C137004F7BE5 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEADD9028F3C137004F7BE5 /* ConfigViewController.swift */; };
 		8DBB279447B18270A2CF32AC /* Pods_Videlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506CCCAD2F619D55BDD7161E /* Pods_Videlay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EB4B24828F3BD700036CFFF /* UIScrollView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
+		0EB4B24928F3BD700036CFFF /* UUID+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UUID+.swift"; sourceTree = "<group>"; };
+		0EB4B24A28F3BD700036CFFF /* Date+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		0EB4B24B28F3BD700036CFFF /* UILabel+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		0EB4B24C28F3BD700036CFFF /* UIStackView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		0EB4B24D28F3BD700036CFFF /* UIButton+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		0EB4B24E28F3BD700036CFFF /* Duration+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Duration+.swift"; sourceTree = "<group>"; };
+		0EB4B24F28F3BD700036CFFF /* TimeInterval+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TimeInterval+.swift"; sourceTree = "<group>"; };
+		0EB4B25028F3BD700036CFFF /* FileManager+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+.swift"; sourceTree = "<group>"; };
+		0EB4B25128F3BD700036CFFF /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		0EB4B25228F3BD700036CFFF /* CGAffineTransform+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+.swift"; sourceTree = "<group>"; };
+		0EB4B25328F3BD700036CFFF /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		0EB4B25428F3BD700036CFFF /* UIFont+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		0EB4B25528F3BD700036CFFF /* AVAsset+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAsset+.swift"; sourceTree = "<group>"; };
+		0EB4B25628F3BD700036CFFF /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		0EB4B25728F3BD700036CFFF /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		0EBFA9E128F3E50D007625B4 /* ClockOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockOverlayView.swift; sourceTree = "<group>"; };
+		0EBFA9E328F3E612007625B4 /* ClockRunloop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockRunloop.swift; sourceTree = "<group>"; };
 		0EC019E928EA5EBB000DD2C1 /* Videlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Videlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC019EC28EA5EBB000DD2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EC019EE28EA5EBB000DD2C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +63,8 @@
 		0EC019F528EA5EBD000DD2C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EC019F828EA5EBD000DD2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EC019FA28EA5EBD000DD2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEADD8E28F3BE5A004F7BE5 /* RecordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		0EEADD9028F3C137004F7BE5 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		34C00BA345336B34FEC7A538 /* Pods-Videlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Videlay.debug.xcconfig"; path = "Target Support Files/Pods-Videlay/Pods-Videlay.debug.xcconfig"; sourceTree = "<group>"; };
 		506CCCAD2F619D55BDD7161E /* Pods_Videlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Videlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E5388CAA080E6ED2511648 /* Pods-Videlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Videlay.release.xcconfig"; path = "Target Support Files/Pods-Videlay/Pods-Videlay.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +88,29 @@
 				506CCCAD2F619D55BDD7161E /* Pods_Videlay.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EB4B24728F3BD6A0036CFFF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0EB4B25528F3BD700036CFFF /* AVAsset+.swift */,
+				0EB4B25228F3BD700036CFFF /* CGAffineTransform+.swift */,
+				0EB4B24A28F3BD700036CFFF /* Date+.swift */,
+				0EB4B24E28F3BD700036CFFF /* Duration+.swift */,
+				0EB4B25028F3BD700036CFFF /* FileManager+.swift */,
+				0EB4B25328F3BD700036CFFF /* String+.swift */,
+				0EB4B24F28F3BD700036CFFF /* TimeInterval+.swift */,
+				0EB4B24D28F3BD700036CFFF /* UIButton+.swift */,
+				0EB4B25428F3BD700036CFFF /* UIFont+.swift */,
+				0EB4B25128F3BD700036CFFF /* UIImage+.swift */,
+				0EB4B24B28F3BD700036CFFF /* UILabel+.swift */,
+				0EB4B24828F3BD700036CFFF /* UIScrollView+.swift */,
+				0EB4B24C28F3BD700036CFFF /* UIStackView+.swift */,
+				0EB4B25628F3BD700036CFFF /* UIView+.swift */,
+				0EB4B25728F3BD700036CFFF /* UIViewController+.swift */,
+				0EB4B24928F3BD700036CFFF /* UUID+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		0EC019E028EA5EBA000DD2C1 = {
@@ -74,6 +137,11 @@
 				0EC019EC28EA5EBB000DD2C1 /* AppDelegate.swift */,
 				0EC019EE28EA5EBB000DD2C1 /* SceneDelegate.swift */,
 				0EC019F028EA5EBB000DD2C1 /* ViewController.swift */,
+				0EEADD9028F3C137004F7BE5 /* ConfigViewController.swift */,
+				0EEADD8E28F3BE5A004F7BE5 /* RecordButton.swift */,
+				0EBFA9E128F3E50D007625B4 /* ClockOverlayView.swift */,
+				0EBFA9E328F3E612007625B4 /* ClockRunloop.swift */,
+				0EB4B24728F3BD6A0036CFFF /* Extensions */,
 				0EC019F228EA5EBB000DD2C1 /* Main.storyboard */,
 				0EC019F528EA5EBD000DD2C1 /* Assets.xcassets */,
 				0EC019F728EA5EBD000DD2C1 /* LaunchScreen.storyboard */,
@@ -206,9 +274,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EBFA9E228F3E50D007625B4 /* ClockOverlayView.swift in Sources */,
+				0EBFA9E428F3E612007625B4 /* ClockRunloop.swift in Sources */,
 				0EC019F128EA5EBB000DD2C1 /* ViewController.swift in Sources */,
+				0EB4B25828F3BD700036CFFF /* UIScrollView+.swift in Sources */,
+				0EB4B25928F3BD700036CFFF /* UUID+.swift in Sources */,
+				0EB4B26028F3BD700036CFFF /* FileManager+.swift in Sources */,
+				0EEADD8F28F3BE5A004F7BE5 /* RecordButton.swift in Sources */,
+				0EB4B25A28F3BD700036CFFF /* Date+.swift in Sources */,
+				0EB4B25D28F3BD700036CFFF /* UIButton+.swift in Sources */,
+				0EB4B26628F3BD700036CFFF /* UIView+.swift in Sources */,
+				0EB4B25F28F3BD700036CFFF /* TimeInterval+.swift in Sources */,
+				0EB4B26328F3BD700036CFFF /* String+.swift in Sources */,
+				0EB4B26428F3BD700036CFFF /* UIFont+.swift in Sources */,
+				0EEADD9128F3C137004F7BE5 /* ConfigViewController.swift in Sources */,
+				0EB4B26228F3BD700036CFFF /* CGAffineTransform+.swift in Sources */,
+				0EB4B25E28F3BD700036CFFF /* Duration+.swift in Sources */,
+				0EB4B25B28F3BD700036CFFF /* UILabel+.swift in Sources */,
+				0EB4B26528F3BD700036CFFF /* AVAsset+.swift in Sources */,
+				0EB4B26128F3BD700036CFFF /* UIImage+.swift in Sources */,
 				0EC019ED28EA5EBB000DD2C1 /* AppDelegate.swift in Sources */,
 				0EC019EF28EA5EBB000DD2C1 /* SceneDelegate.swift in Sources */,
+				0EB4B26728F3BD700036CFFF /* UIViewController+.swift in Sources */,
+				0EB4B25C28F3BD700036CFFF /* UIStackView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,13 +447,16 @@
 				DEVELOPMENT_TEAM = 59SVXWFZ98;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Videlay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Artlapse;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera usage to access camera";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow microphone usage to allow video recording";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow photos to be added to chat";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -390,13 +481,16 @@
 				DEVELOPMENT_TEAM = 59SVXWFZ98;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Videlay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Artlapse;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera usage to access camera";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow microphone usage to allow video recording";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow photos to be added to chat";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
