@@ -25,7 +25,6 @@ class ClockOverlayView: UIView {
     super.init(frame: frame)
     backgroundColor = .clear
     addCircles()
-    startDisplayLink()
   }
   
   
@@ -77,6 +76,7 @@ class ClockOverlayView: UIView {
     whiteCircle.centerFillColor = .clear
     whiteCircle.clockwise = false
     whiteCircle.progress = 1
+    whiteCircle.isHidden = true
 
     redCircle.backgroundColor = .clear
     redCircle.trackBackgroundColor = .clear
@@ -96,6 +96,7 @@ class ClockOverlayView: UIView {
   func animateRedCircle(duration: CGFloat) {
     animationLength = duration
     startDisplayLink()
+    whiteCircle.isHidden = false
   }
   
   required init?(coder: NSCoder) {

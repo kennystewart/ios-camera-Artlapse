@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol ClockRunloopDelegate: AnyObject {
   func clockDidProgressLoop()
@@ -48,7 +49,8 @@ class ClockRunloop {
     miniTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self] timer in
       guard let self = self else { return }
       // decrement secondsRemaining if possible
-      if self.secondsRemaining > 0 {
+      if self.secondsRemaining > 0,
+         UIApplication.shared.applicationState == .active {
         self.secondsRemaining -= 1
         self.delegate?.clockDidProgressLoop()
       } else if self.secondsRemaining == 0 {

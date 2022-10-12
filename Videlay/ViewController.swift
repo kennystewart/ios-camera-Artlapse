@@ -82,8 +82,6 @@ class ViewController: UIViewController {
     previewView.layer.addSublayer(NextLevel.shared.previewLayer)
     self.view.addSubview(previewView)
 
-    let pinchRecognizer = UIPinchGestureRecognizer(target: self, action:#selector(pinch(_:)))
-    self.previewView.addGestureRecognizer(pinchRecognizer)
   }
 
   func addSpinner() {
@@ -96,7 +94,9 @@ class ViewController: UIViewController {
   func addButtons() {
     view.addSubview(controlsContainer)
     controlsContainer.fillParent()
-    
+    let pinchRecognizer = UIPinchGestureRecognizer(target: self, action:#selector(pinch(_:)))
+    controlsContainer.addGestureRecognizer(pinchRecognizer)
+
     addChatButton()
     addRecordButton()
     addConfigButton()
@@ -157,6 +157,7 @@ class ViewController: UIViewController {
     clockOverlay.setSquare(constant: ClockOverlayView.outerDiameter)
     clockOverlay.centerXInParent()
     clockOverlay.centerYInParent()
+    clockOverlay.isUserInteractionEnabled = false
   }
   
   func configureRunloop() {
@@ -343,12 +344,15 @@ class ViewController: UIViewController {
       runloop.start()
       recordSegment()
       timelapseState = .activeInLoop
+      UIApplication.shared.isIdleTimerDisabled = true
 
     case .activeInLoop:
       print("do nothing")
     case .idleInLoop:
       runloop.stop()
       timelapseState = .standby
+      UIApplication.shared.isIdleTimerDisabled = false
+
     }
   }
   
